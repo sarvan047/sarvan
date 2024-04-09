@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Pull Code From GitHub') {
             steps {
-                git 'https://github.com/Iam-mithran/kuber.git'
+                git 'https://github.com/sarvan047/sarvan.git'
             }
         }
         stage('Build the Docker image') {
